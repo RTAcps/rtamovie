@@ -1,0 +1,29 @@
+header {
+  align-items: center;
+  background-color: var(--color-primary);
+  display: flex;
+  height: 60px;
+}
+
+.rtamovie-nav-content {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rtamovie-nav-content h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.rtamovie-contact-container {
+  align-items: center;
+  display: flex;
+}
+
+.rtamovie-contact-link {
+  font-size: 12px;
+  margin: 0 0 0 10px;
+}
