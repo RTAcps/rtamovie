@@ -1,0 +1,53 @@
+.rtamovie-pagination-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.rtamovie-pagination-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.rtamovie-pagination-box form {
+  display: flex;
+  width: 100%;
+}
+
+.rtamovie-pagination-button {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.rtamovie-pagination-button svg {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%)
+    hue-rotate(234deg) brightness(89%) contrast(92%);
+}
+
+.rtamovie-pagination-button:disabled {
+  border: 1px solid #c2c2c2;
+  cursor: unset;
+}
+
+.rtamovie-pagination-button:disabled svg {
+  filter: none;
+}
+
+.rtamovie-pagination-container p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.rtamovie-flip-horizontal {
+  transform: rotate(180deg);
+}
